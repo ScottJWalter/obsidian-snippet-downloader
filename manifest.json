@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
+	"id": "obsidian-snippet-downloader",
+	"name": "Snippet Downloader",
+	"version": "2.0.2",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "A obsidian's plugin to help to manage css snippets (download / update) from repository ",
+	"author": "Mara-Li",
+	"authorUrl": "www.mara-li.fr",
 	"isDesktopOnly": false
 }
