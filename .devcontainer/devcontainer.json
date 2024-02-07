@@ -5,9 +5,7 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {
-			"packages": "obsidian-plugin-cli, auto"
-		},
+		"ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {},
 		"ghcr.io/devcontainers-contrib/features/autoenv:1": {},
 		"ghcr.io/devcontainers-contrib/features/jshint:2": {}
 	}
