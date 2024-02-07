@@ -24,3 +24,6 @@ data.json
 # Exclude yarn-error.log and yarn.lock
 yarn-error.log
 yarn.lock
+
+# direnv file
+.env
