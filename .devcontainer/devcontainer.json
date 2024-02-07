@@ -5,10 +5,6 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
 	"features": {
-<<<<<<< HEAD
-=======
-		"ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {},
->>>>>>> refs/remotes/origin/master
 		"ghcr.io/devcontainers-contrib/features/autoenv:1": {},
 		"ghcr.io/devcontainers-contrib/features/jshint:2": {}
 	}
@@ -23,7 +19,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
+	"postCreateCommand": "/workspace/obsidian-snippet-downloader/scripts/setup.sh",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
