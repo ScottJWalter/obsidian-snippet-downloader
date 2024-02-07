@@ -17,10 +17,15 @@
 	"author": "Mara-Li",
 	"license": "AGPL-3.0",
 	"devDependencies": {
+		"@codemirror/state": "^6.4.0",
+		"@codemirror/view": "^6.23.1",
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "^5.2.0",
 		"@typescript-eslint/parser": "^5.2.0",
+		"auto": "^11.0.4",
+		"auto-plugin-obsidian": "^0.1.6",
 		"builtin-modules": "^3.2.0",
+		"create-obsidian-plugin": "^0.4.3",
 		"esbuild": "0.13.12",
 		"eslint": "^8.13.0",
 		"obsidian": "latest",
@@ -30,6 +35,7 @@
 	"dependencies": {
 		"@octokit/core": "^3.6.0",
 		"js-base64": "^3.7.2",
+		"obsidian-utils": "^0.10.2",
 		"standard-version": "^9.3.2"
 	}
 }

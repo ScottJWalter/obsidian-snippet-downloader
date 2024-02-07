@@ -20,3 +20,7 @@ data.json
 
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
+
+# Exclude yarn-error.log and yarn.lock
+yarn-error.log
+yarn.lock
