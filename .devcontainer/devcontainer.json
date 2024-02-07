@@ -11,6 +11,9 @@
 		"ghcr.io/devcontainers-contrib/features/jshint:2": {}
 	}
 
+	// Set environment variables (NOTE -- **NOT** API KEYS, etc.):
+	// "remoteEnv": { "ENV_VAR_NAME": "ENV_VAR_VALUE" },
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
