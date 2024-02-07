@@ -4,10 +4,12 @@
 	"description": "A obsidian's plugin to help to manage css snippets (download / update) from repository ",
 	"main": "main.js",
 	"scripts": {
-		"dev": "node esbuild.config.mjs",
+		"dev": "node esbuild.config.mjs dev",
 		"build": "node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json",
-		"release": "yarn run version && yarn run build && auto release"
+		"release": "standard-version",
+		"lint": "eslint --ext .ts,.svelte src",
+		"format": "prettier --check src"
 	},
 	"standard-version": {
 		"t": "",
@@ -32,6 +34,7 @@
 		"esbuild": "0.13.12",
 		"eslint": "^8.13.0",
 		"obsidian": "latest",
+		"prettier": "^3.2.5",
 		"tslib": "2.3.1",
 		"typescript": "4.4.4"
 	},
