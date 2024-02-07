@@ -7,7 +7,7 @@
 		"dev": "node esbuild.config.mjs",
 		"build": "node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json",
-		"release": "auto release"
+		"release": "yarn run version && yarn run build && auto release"
 	},
 	"standard-version": {
 		"t": "",
@@ -17,6 +17,10 @@
 	"author": "Mara-Li",
 	"license": "AGPL-3.0",
 	"devDependencies": {
+		"@auto-it/all-contributors": "^11.0.4",
+		"@auto-it/conventional-commits": "^11.0.4",
+		"@auto-it/git-tag": "^11.0.4",
+		"@auto-it/released": "^11.0.4",
 		"@codemirror/state": "^6.4.0",
 		"@codemirror/view": "^6.23.1",
 		"@types/node": "^16.11.6",

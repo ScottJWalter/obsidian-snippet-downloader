@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "git-tag",
+    "all-contributors",
+    "conventional-commits",
+    "released"
+  ],
+  "owner": "ScottJWalter",
+  "repo": "obsidian-snippet-downloader",
+  "name": "scottjwalter",
+  "email": "sjwalter@gmail.com",
+  "onlyPublishWithReleaseLabel": true
+}
