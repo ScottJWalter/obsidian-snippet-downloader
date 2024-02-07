@@ -2,10 +2,10 @@
 
 This plugin is here to help you to download and update css snippet that are on a GitHub repository.
 
-The plugin will download all css snippet on a repository, unless :
-- There are two big (< 1MB)
-- There are named `obsidian.css` (use BRAT for themes)
-- There are excluded (see settings & excluded)
+The plugin will download all css snippet on a repository, unless they are ...
+- ... two big (< 1MB)
+- ... named `obsidian.css` (use BRAT for themes)
+- ... excluded (see settings & excluded)
 
 In setting, you can :
 - Delete a repository. Warning ! It will not delete the snippet from your `.obsidian/snippet` folder.
@@ -13,7 +13,7 @@ In setting, you can :
 
 
 So, the commands added by the plugins are :
-- **Adding new Snippet** : Use `https://github.com/username/repo` or `username/repo` to add a new repository and download the present css snippet.
+- **Adding new Snippet** : Either `https://github.com/username/repo` or `username/repo` work to identify the repo.
 - **Update all snippet** : Update all repository and their snippet (unless you exclude them).
 - **Update Specific snippet** : You can just update one snippet using its name.
 - **Update Specific Repository** : You can just update one repository using its name.
