@@ -7,6 +7,13 @@
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/autoenv:1": {},
 		"ghcr.io/devcontainers-contrib/features/jshint:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot"
+			]
+		}
 	}
 
 	// Set environment variables (NOTE -- **NOT** API KEYS, etc.):
